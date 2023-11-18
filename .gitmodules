@@ -1,0 +1,3 @@
+[submodule "CryptoApp"]
+	path = CryptoApp
+	url = ./CryptoApp
