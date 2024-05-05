@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         val imagebtn = findViewById<ImageButton>(R.id.image_button)
         imagebtn.setOnClickListener {
             Toast.makeText(this, "You clicked Image button", Toast.LENGTH_SHORT).show()
-
         }
 
         val radioButton = findViewById<RadioButton>(R.id.radio_button)
