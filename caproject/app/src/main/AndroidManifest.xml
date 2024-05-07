@@ -13,32 +13,23 @@
         android:theme="@style/Theme.Caproject"
         tools:targetApi="31">
         <activity
-            android:name=".Transition1"
-            android:exported="false" />
-        <activity
-            android:name=".madam2"
-            android:exported="false" />
-        <activity
-            android:name=".mada2"
-            android:exported="false" />
-        <activity
-            android:name=".madamsolution"
-            android:exported="false" />
-        <activity
             android:name=".ListActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
         </activity>
+
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

@@ -25,10 +25,5 @@ class MainActivity : AppCompatActivity() {
                 putExtra("type", "bike")
             })
         }
-        val madambutton: Button = findViewById(R.id.madam_button)
-        madambutton.setOnClickListener {
-            startActivity(Intent(this, madamsolution::class.java)
-           )
-        }
     }
 }

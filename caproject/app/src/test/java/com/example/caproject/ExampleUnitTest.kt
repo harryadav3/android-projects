@@ -1,6 +1,5 @@
 package com.example.caproject
 
-import android.util.Log
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -14,20 +13,5 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
-    }
-
-    fun my() {
-        assertTrue(false);
-    }
-
-    fun division() {
-        val numerator = 68
-        var denominator = 4
-
-        repeat(5) {
-
-            Log.v("","${numerator/denominator}")
-            denominator--;
-        }
     }
 }
